@@ -1,7 +1,7 @@
 const AWS = require("aws-sdk");
 const QRcode = require("qrcode");
 var validate = require("uuid-validate");
-const S3_BUCKET = "vvplus";
+const S3_BUCKET = "your basket name";
 const s3bucket = new AWS.S3({ params: { Bucket: S3_BUCKET } });
 const s3 = new AWS.S3();
 
